@@ -21,6 +21,6 @@ import rx.Observable;
 
 public interface HttpResponse {
 
-	void write(Observable<ByteBuf> publisher);
+	void setBody(Observable<ByteBuf> publisher);
 
 }

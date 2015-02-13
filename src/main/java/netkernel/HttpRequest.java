@@ -21,6 +21,6 @@ import rx.Observable;
 
 public interface HttpRequest {
 
-	Observable<ByteBuf> getContent();
+	Observable<ByteBuf> getBody();
 
 }
